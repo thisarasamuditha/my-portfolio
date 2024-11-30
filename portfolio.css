@@ -7,6 +7,7 @@
 
 body {
     color: aliceblue;
+    background: #081b29;
 }
 
 .header {
@@ -15,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +47,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #61ea5a;
+    color:#ff0000;
 }
 
 .home {
@@ -71,7 +72,7 @@ body {
 }
 
 .home-content h3 span{
-    color: #61ea5a;
+    color:#ff0000;
 }
 
 .home-content h3:nth-of-type(2){
@@ -97,10 +98,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #61ea5a;
+    border: 2px solid#ff0000;
     border-radius: 50%;
     font-size: 20px;
-    color: #61ea5a;
+    color: #ff0000;
     text-decoration: none;
     margin: 30px 15px 30px 0;
 
@@ -108,24 +109,63 @@ body {
 
 
 .home-sci a:hover { 
-    background:#61ea5a;
+    background:#ff0000;
     color: #081b29;
-    box-shadow: 0 0 20px #61ea5a;
+    box-shadow: 0 0 20px #ff0000;
 }
 
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background:#61ea5a;
+    background:#ff0000;
     border-radius: 40px; font-size: 16px; color: #081b29; letter-spacing: 1px;
     text-decoration: none; font-weight: 600;
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px #92e58e,
-    0 0 25px #92e58e,
-    0 0 50px #92e58e,0 0 100px #92e58e,
-    0 0 200px #92e58e
+    box-shadow: 0 0 5px #ff0000,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000,0 0 100px #ff0000,
+    0 0 200px #ff0000
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-text h2{
+    font-size: 60px;
+}
+
+.about-text h2 span{
+    color: #ff0000;
+}
+
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
 
 
